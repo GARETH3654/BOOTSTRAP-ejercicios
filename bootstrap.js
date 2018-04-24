@@ -30,3 +30,15 @@ $('.modal-button').on('click',function(event) {
 $('.modal-background, .close-modal i' ).on('click',function(){
   $('.custom-modal').toggle('not-showing')
 })
+
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles2-js', 'particlesjs-config 2.json ', function() {
+  console.log('callback - particles.js config loaded');
+});
+
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'particlesjs-config.json', function() {
+  console.log('callback - particles.js config loaded');
+});
