@@ -1,0 +1,162 @@
+.navbar{
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+  z-index: 1;
+}
+.button-link-navbar :hover{
+  background-color: transparent;
+}
+header{
+  background-image: linear-gradient( rgba(1, 0, 0, 0 ),rgba(1, 0, 0, 1)),  url('img/paisaje 3.jpg');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+header h1{
+  display: flex;
+  text-align: center;
+  margin: 200px 50px;
+  padding-top: 30px;
+  position:relative;
+}
+header article{
+  display: inline-block;
+}
+.cover-card{
+  background-color: white;
+  padding: 70px 25px;
+  margin: 90px 200px;
+  font-size: 30px;
+  border-radius:170px;
+}
+section{
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+}
+.conteiner{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 0px;
+}
+#particles-js{
+  background-color: LightCyan;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+#particles2-js{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+.section-particles{
+  position: relative;
+}
+.about-me{
+    text-align: justify;
+}
+
+.about-me h2 span{
+  color: blue;
+}
+.about-me button{
+  background-color: Blue;
+  color: white;
+  border-radius: 10px
+  border: none;
+}
+.about-me button:hover{
+  background-color: white;
+  color: black;
+  transition: all .4s;
+  border: 3px solid LightBlue;
+  cursor: pointer;
+}
+.about-me li{
+  font-size: 40px;
+  cursor: pointer;
+}
+.about-me ul{
+  list-style: none;
+}
+section h2{
+  margin: 60px;
+}
+.custom-modal{
+  display: flex;
+  justify-content: none;
+}
+.custom-modal.not-showing{
+  display: none
+}
+.skill-img{
+  position: fixed;
+  width: 250px;
+  top: 320px;
+}
+.modal-background{
+  bottom: 0;
+  background-image: linear-gradient(rgba(1, 0, 0, 0),rgba(1, 0, 0, .5));
+  left: 0;
+  position:fixed;
+  right: 0;
+  top: 0;
+}
+.custom-modal-card{
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+  position: fixed;
+  top: 100px;
+  width: 500px;
+  margin: 0% 35%;
+  height: 700px;
+}
+.custom-modal-card .close-modal{
+  text-align: right;
+}
+.custom-modal-card span{
+  color: blue;
+}
+.close-modal i:hover{
+  cursor: pointer;
+}
+.carousel-style{
+  margin: 120px 0px;
+}
+.background-second-section{
+  background-image: url('img/paisaje 2.jpg');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.background-second-section p{
+  color: WhiteSmoke;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+footer{
+  font-family: 'Gugi',cursive;
+  background-color: SlateGray;
+  font-size: 20px
+}
+footer p{
+  color: white;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0px;
+  font-size: 40px;
+}
+footer a{
+}
