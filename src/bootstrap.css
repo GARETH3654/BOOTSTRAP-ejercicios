@@ -1,3 +1,6 @@
+body{
+  position:
+}
 .navbar{
   position: fixed;
   width: 100%;
@@ -7,29 +10,34 @@
 .button-link-navbar :hover{
   background-color: transparent;
 }
+article h1{
+  color: white;
+}
 header{
-  background-image: linear-gradient( rgba(1, 0, 0, 0 ),rgba(1, 0, 0, 1)),  url('img/paisaje 3.jpg');
+  background-image: linear-gradient( rgba(1, 0, 0, 0 ),rgba(2, 0, 1,1)),  url('img/jorgelogo.jpg');
   background-attachment: fixed;
-  background-position: bottom;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
+  background-repeat: space;
   height: 500px;
-  width: 100%;
+  width:  inherit;
+  padding: 0px 0px 0px 50px;
 }
 header h1{
   display: flex;
   text-align: center;
   margin: 200px 50px;
   padding-top: 30px;
-  position:relative;
+  position: relative;
 }
 header article{
   display: inline-block;
 }
 .cover-card{
   background-color: white;
-  padding: 70px 25px;
+  padding: 10px 75px;
   margin: 90px 200px;
-  font-size: 30px;
+  font-size: 25px;
   border-radius:170px;
 }
 section{
@@ -115,8 +123,18 @@ section h2{
   padding: 50px;
   position: fixed;
   top: 100px;
-  width: 500px;
+  width: 600px;
   margin: 0% 35%;
+  height: 700px;
+}
+.modal-pages{
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  top: 100px;
+  width: 950px;
+  margin: 0% 22%;
   height: 700px;
 }
 .custom-modal-card .close-modal{
@@ -132,7 +150,7 @@ section h2{
   margin: 120px 0px;
 }
 .background-second-section{
-  background-image: url('img/paisaje 2.jpg');
+  background-image: url('img/paisaje 2-min.jpg');
   background-attachment: fixed;
   background-position: bottom;
   background-size: cover;
@@ -160,3 +178,41 @@ footer p{
 }
 footer a{
 }
+.footer-form-input{
+  background-color: SlateGray;
+  color: white;
+  width: 30%;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+::placeholder{
+  color: white;
+  text-align: center;
+}
+.footer-form-input2{
+  background-color: SlateGray;
+  color: white;
+  width: 30%;
+  display: block;
+  margin: 10px auto;
+  padding: 30px;
+  text-align: center;
+}
+form .modal-button{
+  background-color: Blue;
+  color: white;
+  border-radius: 10px
+  border: none;
+  margin: 25px auto;
+  width: 100px;
+  display: block;
+
+}
+form .modal-button:hover{
+  background-color: white;
+  color: black;
+  transition: all .4s;
+  border: 3px solid LightBlue;
+  cursor: pointer;

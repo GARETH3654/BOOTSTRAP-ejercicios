@@ -50,3 +50,19 @@ particlesJS.load('particles2-js', 'particlesjs-config 2.json ', function() {
 particlesJS.load('particles-js', 'particlesjs-config.json', function() {
   console.log('callback - particles.js config loaded');
 });
+
+
+var database = firebase.database()
+
+function saveMessage(form) {
+  var name = form.name.value
+  var email = form.email.value
+  var numero = form.numero.value
+  var message = form.message.value
+  database.ref('message').update({
+    name: name,
+    email: email,
+    numero: numero,
+    message: message
+  });
+};
