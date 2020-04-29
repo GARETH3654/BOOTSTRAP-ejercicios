@@ -21,7 +21,7 @@
   "dependencies": {
     "bootstrap": "^4.1.0",
     "firebase-tools": "^3.18.4",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "particles.js": "^2.0.0"
   },
   "devDependencies": {
